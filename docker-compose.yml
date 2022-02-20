@@ -1,0 +1,33 @@
+version: "3.9"
+services:
+  server:
+    container_name: url-shortener-server-container
+    restart: always
+    build: ./server
+    ports:
+      - "8000:8000"
+    depends_on:
+      - "database"
+
+  client:
+    container_name: url-shortener-client-container
+    restart: always
+    build: ./client
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "server"
+
+  database:
+    container_name: url-shortener-database-container
+    image: mongo:latest
+    restart: always
+    expose:
+      - "27017"
+    ports:
+      - "27017:27017"
+    volumes:
+      - serverDB:/data/db
+
+volumes:
+  serverDB:

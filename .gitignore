@@ -1,0 +1,17 @@
+**/node_modules
+**/.pnp
+**/.vscode
+**/!.vscode/tasks.js
+**/.idea/
+**/*.log
+**/coverage
+**/build
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+coverage
+build/
+.npm
+.eslintcache
