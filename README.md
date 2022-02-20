@@ -4,7 +4,7 @@
 
 <br>
 
-# Free URL Shortener
+# URL Shortener
 Another full-stack URL Shortener application built using web technologies.
 
 <br>
