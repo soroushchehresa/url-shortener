@@ -6,7 +6,7 @@
 }
 
 .page-title {
-  font-size: 50px;
+  font-size: 36px;
   margin-bottom: 0;
   color: #444;
 }
@@ -28,15 +28,15 @@
 }
 
 .form-wrapper > .input-wrapper > input {
-  font-size: 26px;
+  font-size: 20px;
   border-radius: 20px;
-  padding: 10px 20px;
-  height: 70px;
+  padding: 5px 15px;
+  height: 60px;
   overflow: hidden;
   min-width: 600px;
   font-weight: bold;
   outline: none !important;
-  border: 3px solid #888;
+  border: 2px solid #888;
   color: #888;
   box-sizing: border-box;
 }
@@ -59,16 +59,17 @@
 
 .form-wrapper > button {
   outline: none !important;
-  font-size: 30px;
+  font-size: 20px;
   background-color: transparent;
   border-radius: 20px;
   padding: 0 20px;
-  height: 70px;
+  height: 60px;
   overflow: hidden;
   margin-left: 10px;
   cursor: pointer;
-  border: 3px solid #888;
+  border: 2px solid #888;
   color: #888;
+  font-weight: bold;
 }
 
 .form-wrapper > button:hover {

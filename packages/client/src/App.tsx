@@ -62,7 +62,7 @@ function App() {
       <div className="content-wrapper">
         <h1 className="page-title">Free URL Shortener</h1>
         <p className="page-description">
-          Simple open-source URL shortener application built with NodeJs,
+          Simple open-source URL shortener application built with Lerna, NodeJs,
           MongoDB, ReactJs, TypeScript, and Docker.
         </p>
         <div className="form-wrapper">

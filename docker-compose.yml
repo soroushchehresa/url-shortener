@@ -3,7 +3,7 @@ services:
   server:
     container_name: url-shortener-server-container
     restart: always
-    build: ./server
+    build: ./packages/server
     ports:
       - "8000:8000"
     depends_on:
@@ -12,7 +12,7 @@ services:
   client:
     container_name: url-shortener-client-container
     restart: always
-    build: ./client
+    build: ./packages/client
     ports:
       - "3000:3000"
     depends_on:
