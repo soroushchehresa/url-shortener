@@ -29,7 +29,7 @@ $ docker-compose build && docker-compose up
 
 ## Development
 ```bash
-$ yarn start
+$ yarn bootstrap && yarn start
 ```
 
 <br>
