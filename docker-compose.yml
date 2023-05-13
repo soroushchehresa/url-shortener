@@ -1,6 +1,7 @@
 version: "3.9"
 services:
   server:
+    env_file: .env
     container_name: url-shortener-server-container
     restart: always
     build: ./packages/server
@@ -10,6 +11,7 @@ services:
       - "database"
 
   client:
+    env_file: .env
     container_name: url-shortener-client-container
     restart: always
     build: ./packages/client
@@ -19,6 +21,7 @@ services:
       - "server"
 
   database:
+    env_file: .env
     container_name: url-shortener-database-container
     image: mongo:latest
     restart: always
