@@ -38,11 +38,11 @@ $ yarn bootstrap && yarn start
 ## URLs
 #### Client:
 ```
-http://[BASE_URL]
+https://[BASE_URL]
 ```
 #### Server:
 ```
-http://[BASE_URL]:8000
+https://[BASE_URL]:8000
 ```
 
 <br>
