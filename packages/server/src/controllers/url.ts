@@ -10,7 +10,7 @@ export const create = async (req: Request, res: Response) => {
   try {
     const url = new Model({ orginalUrl, shortenId});
     await url.save();
-    responseHandler(res, {url: `${process.env.SHORTEN_BASE_URL}/${url.shortenId}`})
+    responseHandler(res, { id: url.shortenId })
   } catch (err) {
     errorHandler(res, err);
   }

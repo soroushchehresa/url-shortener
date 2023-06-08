@@ -2,7 +2,7 @@ import * as Joi from 'joi';
 import {Response, Request, NextFunction} from 'express';
 import * as shortid from 'shortid';
 
-export const urlValidator = (text: string, helpers?: Joi.CustomHelpers<any>): any => {
+export const urlValidator = (text: string, helpers?: Joi.CustomHelpers): boolean => {
   let url: URL;
   try {
     url = new URL(text);

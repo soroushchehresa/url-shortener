@@ -27,10 +27,12 @@ function App() {
       setShortenUrl('')
       setLoading(true)
       axios
-        .post(`${process.env.REACT_APP_API_BASE_URL}/`, { url })
+        .post(`${process.env.REACT_APP_SERVER_BASE_URL}/`, { url })
         .then((response: AxiosResponse) => {
           if (response?.data?.success) {
-            setShortenUrl(response?.data?.data?.url)
+            setShortenUrl(
+              `${process.env.REACT_APP_SERVER_BASE_URL}/${response?.data?.data?.id}`,
+            )
             setDisableButton(true)
           }
           setLoading(false)
