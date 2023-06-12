@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/soroushchehresa/url-shortener/master/preview.png" width="100%" />
+  <img src="https://i.imgur.com/rs0YM4e.gif" width="100%" />
 </p>
 
 <br>
@@ -15,6 +15,7 @@ Containerized full-stack URL Shortener application built using web technologies.
 * [Express](https://github.com/expressjs/express)
 * [MongoDB](https://github.com/mongodb/mongo)
 * [React](https://github.com/facebook/react)
+* [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
 * [TypeScript](https://github.com/microsoft/TypeScript)
 * [Docker](https://github.com/docker)
 
