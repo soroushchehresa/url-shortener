@@ -43,7 +43,7 @@ $ docker-compose build && docker-compose up
 <br>
 
 ## Development
-1: Install and run MongoDB on your machine (Instructions: [Windows](https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514) | [Mac](https://medium.com/macoclock/setup-mongodb-on-macos-94e0c687c649) | [Linux](https://www.cherryservers.com/blog/how-to-install-and-start-using-mongodb-on-ubuntu-20-04)).
+1: Install and run MongoDB on your local machine (Instructions: [Windows](https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514) | [Mac](https://medium.com/macoclock/setup-mongodb-on-macos-94e0c687c649) | [Linux](https://www.cherryservers.com/blog/how-to-install-and-start-using-mongodb-on-ubuntu-20-04)).
 
 2: Run development:
 ```bash
@@ -54,11 +54,11 @@ $ yarn bootstrap && yarn start
 
 
 ## App URL
-#### Client:
+Client:
 ```
 https://[your-server-url or localhost:3000]
 ```
-#### Server:
+Server:
 ```
 https://[your-server-url or localhost]:8000
 ```
